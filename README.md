@@ -23,8 +23,7 @@ OldPhonePadApp is a simple Avalonia-based desktop application that converts old 
    Install .NET SDK 8.0.0:
 
 2. Download and install the .NET SDK 8.0.0 from the official .NET download page.
-3. Build and run the application:dotnet run
-
+3. Build and run the application (use command): dotnet run
 
 
 Usage
