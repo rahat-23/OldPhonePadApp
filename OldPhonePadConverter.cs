@@ -10,7 +10,7 @@ public class OldPhonePadConverter
         // Array mapping each digit to its corresponding characters on an old phone pad.
         string[] keyMap = new string[]
         {
-            "",     // 0 - no characters
+            " ",    // 0 - space character
             "",     // 1 - no characters
             "ABC",  // 2
             "DEF",  // 3
@@ -55,8 +55,8 @@ public class OldPhonePadConverter
                     i++; // Move to the next character.
                 }
 
-                // Ensure the digit is within the range that maps to characters (2-9).
-                if (digit >= 2 && digit <= 9)
+                // Ensure the digit is within the range that maps to characters (0-9).
+                if (digit >= 0 && digit <= 9)
                 {
                     string characters = keyMap[digit]; // Get the characters corresponding to the digit.
                     int index = (count - 1) % characters.Length; // Determine the character index based on the count.
