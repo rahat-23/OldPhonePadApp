@@ -24,6 +24,9 @@ OldPhonePadApp is a simple Avalonia-based desktop application that converts old 
 
 2. Download and install the .NET SDK 8.0.0 from the official .NET download page.
 3. Build and run the application:dotnet run
+
+
+
 Usage
 Input Field: Enter the old phone pad string (e.g., 8 88777444666*664#).
 Convert Button: Click the "Convert" button to see the corresponding text output in the output field.
